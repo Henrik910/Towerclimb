@@ -7,8 +7,8 @@ public class Player : MonoBehaviour
 {
     public Rigidbody2D rigidbody;
     [SerializeField]Transform startposition;
-    Vector2 left = new Vector2(-4.0f, 0.0f);
-    Vector2 right = new Vector2(4.0f, 0.0f);
+    Vector2 left = new Vector2(-10.0f, 0.0f);
+    Vector2 right = new Vector2(10.0f, 0.0f);
     float vx;
     float vy;
     Vector2 up;
